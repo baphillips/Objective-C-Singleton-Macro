@@ -10,7 +10,7 @@
 
 /// This macro implements the various methods needed to make a safe singleton.
 /// Sample usage:
-/// OBJECTIVE_C_SINGLETON_(SomeUsefulManager, sharedSomeUsefulManager)
+/// OBJECTIVE_C_SINGLETON(SomeUsefulManager, sharedSomeUsefulManager)
 /// (with no trailing semicolon)
 
 #define OBJECTIVE_C_SINGLETON(_object_name_, _shared_obj_name_)\
